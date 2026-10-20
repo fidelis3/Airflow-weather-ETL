@@ -1,5 +1,3 @@
-
-
 # airflow-weather-etl
 
 A beginner-friendly learning project using Apache Airflow DAGs to orchestrate a simple ETL pipeline that extracts, transforms, and loads weather data.
@@ -24,9 +22,6 @@ extract  >>  transform  >>  load  >>  report
 `report` and `preview_csv` run in parallel because neither depends on the other.
 
 ## Screenshots
-
-Add your own screenshots to a `screenshots/` folder and link them here:
-
 ![Graph view](airflow-weather-etl/Graph.png)
 ![Grid view](airflow-weather-etl/Gridview.png )
 ![Report logs](airflow-weather-etl/Summary.png)
@@ -100,9 +95,3 @@ To stop Airflow, press `Ctrl + C`, then run `docker compose down`.
 - How to schedule, retry, and monitor tasks in the Airflow UI (Graph view, Grid view, logs)
 - How to run Airflow with Docker
 
-## Ideas for improvement
-
-- Save the data to a database (SQLite or Postgres) instead of a CSV
-- Add a dashboard with Power BI or Streamlit
-- Send an alert when the temperature is above a limit
-- Add more cities
