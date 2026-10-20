@@ -1,2 +1,17 @@
+# Airflow runtime files
 logs/
 .env
+airflow.db
+*.cfg
+dags/output/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+
+# Local data
+weather.csv
